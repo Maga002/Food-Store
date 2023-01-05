@@ -1,0 +1,61 @@
+
+.foodList{
+    padding: 30px 30px;
+}
+.foodList h1{
+    color: orange;
+    margin-bottom: 20px;
+    margin-top: 0;
+    background-color: purple;
+    border-radius: 20px;
+    padding: 5px 8px;
+
+}
+.singleFood img{
+    width: 150px;
+}
+
+.singleFood{
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.233);
+}
+.singleFood h2{
+    color:purple;
+    
+}
+.foodTitle{
+    display: flex;
+    align-items: center;
+    padding: 0px 0;
+    margin: 0;
+    justify-content: space-between;
+    display: flex;
+}
+.foodTitle h2{
+    margin-left: 20px;
+    font-style: italic;
+}
+
+.singleFood span{
+    color: blueviolet;
+}
+
+.singleFood button{
+    background-color: purple;
+    padding: 5px 10px;
+    font-size: 16px;
+    margin: 15px 0;
+    color: orange;
+    border: 2px solid purple;
+    border-radius: 15px;
+    outline: none;
+    transition: .3s;
+}
+
+.singleFood button:hover{
+    border-radius: 20px;
+    background-color: transparent;
+    color: purple;
+    cursor: pointer;
+}
+

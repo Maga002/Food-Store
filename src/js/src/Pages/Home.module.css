@@ -1,0 +1,63 @@
+.home {
+  padding: 20px 30px;
+  display: flex;
+}
+.home h1 {
+  font-size: 35px;
+  padding: 0 50px;
+  color: #107784;
+  margin: 10px;
+  font-style: italic;
+
+}
+
+.home p {
+  color: #05545e;
+  font-style: italic;
+  font-size: 18px;
+}
+
+.homeCard {
+  text-align: center;
+  width: 900px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: orange;
+  border-radius: 35px;
+  border: 2px solid rgb(191, 10, 191);
+}
+.rightImg{
+  margin-top: 6rem;
+}
+.home img{
+    width: 180px;
+    height: 180px;
+}
+.homeDesc{
+    padding-right:40px ;
+}
+
+.homeDesc h5{
+    width: 70%;
+    margin: 0 auto;
+    color: #107784;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.homeDesc  img {
+  width: 20px;
+  height: 20px;
+}
+
+.homeDesc a{
+  color: #107784;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.homeimg img{
+  width: 100px;
+  height: 100px;
+}

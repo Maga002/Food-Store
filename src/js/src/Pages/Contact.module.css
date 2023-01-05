@@ -1,0 +1,52 @@
+.reserv {
+  padding: 10px 20px;
+  border-bottom: 3px solid purple;
+}
+.reserv h1 {
+  font-size: 40px;
+  color: purple;
+  font-style: italic;
+  margin: 5px 8px 10px 0;
+  border-bottom: 2px solid purple;
+}
+
+.reserv input {
+  width: 100%;
+  text-align: start;
+  padding: 10px 12px;
+  border: 2px solid purple;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.reserv input:focus {
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px rgb(241, 111, 241);
+  outline: none;
+}
+.reserv form {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.tables select{
+    width: 40%;
+    background-color: purple;
+    padding: 10px 12px;
+    font-size: 18px;
+    border: 2px solid rgb(178, 20, 178);
+    color: white;
+    border-radius:20px ;
+}
+.tables img{
+    margin-right:20px ;
+}
+
+.contact h4{
+    margin: 7px 0;
+    color: purple;
+    font-style: italic;
+
+}

@@ -1,0 +1,39 @@
+.allAddress{
+ background-color: orange;
+ margin: 0;
+}
+.title{
+    color: orange;
+    width: 50%;
+    margin: 10px auto;
+    
+    padding-bottom: 7px;
+    background-color: purple;
+    border-radius: 15px;
+}
+.singleAddress h2{
+    color: purple;
+    border-bottom: 3px solid purple;
+
+}
+.singleAddress{
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.singleAddress img{
+    width: 80px;
+}
+.singleAddress a{
+    text-decoration: none;
+    color: purple;
+}
+iframe{
+    border-radius: 20px;
+    border: 2px solid purple;
+    height: 200px;
+    margin-bottom: 25px;
+}
+
+

@@ -1,0 +1,11 @@
+footer{
+    background-color: orange;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    color: #107784;
+}
+footer h5{
+    padding-left: 20px;
+}

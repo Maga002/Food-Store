@@ -1,0 +1,64 @@
+.allMenu h1{
+color: orange;
+background-color: purple;
+border-radius: 15px;
+
+padding: 6px 8px;
+
+}
+
+.singleMenu{
+display: flex;
+transition: .3s;
+}
+
+.allSingle h3{
+    font-size: 22px;
+    border-bottom: 3px solid purple;
+    width: 50%;
+    margin:8px auto;
+    color: purple;
+}
+.singleMenu img{
+    width: 200px;
+    transition: .4s;
+}
+
+.allMenu{
+    padding: 10px 20px;
+}
+
+.allSingle button{
+    background-color: purple;
+    color: orange;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius:12px;
+    padding: 5px 22px;
+    border: 2px solid purple;
+    transition: .3s;
+}
+.allSingle button:hover{
+    cursor: pointer;
+    color: purple;
+    background-color: transparent;
+    border-radius: 18px;
+}
+.singleMenu li{
+    list-style: circle;
+    font-size: 19px;
+    font-style: italic;
+    color: purple;
+    font-weight: 600;
+    text-align: start;
+}
+.singleMenu ul{
+    margin-left: 10px;
+}
+.singleMenu:hover {
+    transform: scale(1.2);
+    background-color: orange;
+    padding: 10px 14px;
+    border-radius: 20px;
+    box-shadow: 5px 10px 5px 10px rgba(247, 0, 255, 0.337);
+}

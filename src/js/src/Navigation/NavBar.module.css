@@ -1,0 +1,44 @@
+.navbarLogo{
+    display: flex;
+    align-items: center;
+}
+
+.navbarLogo h1{
+    color: #107784;
+    border-bottom: 2px solid #107784;
+    text-decoration: none;
+}
+.navbarLogo  img{
+    margin-left: 10px;
+    width: 90px;
+}
+
+.navbarAll{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbarBack{
+    background-color: orange;
+}
+
+.navbarList ul{
+    display: flex;
+    margin: 0;
+    align-items: center;
+}
+.navbarList > ul > a{
+    list-style: none;
+    color: #107784;
+    font-size: larger;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 2px 15px;
+    border-bottom: 2px solid transparent;
+}
+.navbarList ul li{
+    list-style: none;
+}
+

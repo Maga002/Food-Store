@@ -1,0 +1,8 @@
+.containerUI{
+    position: relative;
+    background-image: url(../assets/images/foodBG.jpg);
+    width: 100%;
+    height: 88.7vh;
+    background-position: center;
+    background-size: cover;
+}
